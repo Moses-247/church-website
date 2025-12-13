@@ -7,19 +7,19 @@
 
      "use strict";
 
-     $(window).stellar({
-         responsive: true,
-         parallaxBackgrounds: true,
-         parallaxElements: true,
-         horizontalScrolling: false,
-         hideDistantElements: false,
-         scrollProperty: 'scroll'
-     });
+    //  $(window).stellar({
+    //      responsive: true,
+    //      parallaxBackgrounds: true,
+    //      parallaxElements: true,
+    //      horizontalScrolling: false,
+    //      hideDistantElements: false,
+    //      scrollProperty: 'scroll'
+    //  });
 
 
      var fullHeight = function() {
 
-         $('.js-fullheight').css('height', $(window).height());
+         //$('.js-fullheight').css('height', $(window).height());
          $(window).resize(function() {
              $('.js-fullheight').css('height', $(window).height());
          });
@@ -38,7 +38,7 @@
      loader();
 
      // Scrollax
-     $.Scrollax();
+    //  $.Scrollax();
 
 
 
@@ -93,6 +93,8 @@
              nav: false,
              autoplayHoverPause: false,
              items: 1,
+             touchDrag: false, 
+             mouseDrag: false,
              navText: ["<span class='ion-md-arrow-back'></span>", "<span class='ion-chevron-right'></span>"],
              responsive: {
                  0: {

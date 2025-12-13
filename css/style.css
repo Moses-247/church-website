@@ -4228,19 +4228,3 @@ textarea.form-control {
         stroke-dashoffset: -136px;
     }
 }
-/* *** SCROLLING FIX OVERRIDE - FINAL CSS ATTEMPT *** */
-html, body {
-    /* Ensures vertical scrolling is enabled */
-    overflow-y: scroll !important; 
-    /* Prevents horizontal scroll from any stray elements */
-    overflow-x: hidden !important; 
-    /* Ensures fixed positioning isn't locking the page */
-    position: static !important; 
-}
-
-/* Also ensure the touch-action is still there */
-.home-slider,
-.owl-carousel,
-.slider-item {
-    touch-action: pan-y !important;
-}

@@ -1135,6 +1135,7 @@ fieldset:disabled a.btn {
 }
 
 .navbar-brand {
+    font-family: 'Playfair Display', serif;
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
